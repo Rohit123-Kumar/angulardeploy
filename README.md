@@ -1,5 +1,5 @@
 # LoginApp
-First update has been made
+First update has been made and second update is done
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
 
 ## Development server

@@ -28,13 +28,13 @@ export class HomePageComponent implements OnInit {
   }
 
   ngOnInit(): void {
-   #this.httpClient.get('http://127.0.0.1:5000/userDetails').toPromise().then(data => {
-     #this.userDetails = data;
-    #})
+  this.httpClient.get('http://127.0.0.1:5000/userDetails').toPromise().then(data => {
+     this.userDetails = data;
+    })
 
-    #this.httpClient.get('http://127.0.0.1:5000/adminDetails').toPromise().then(data => {
+    this.httpClient.get('http://127.0.0.1:5000/adminDetails').toPromise().then(data => {
       #this.adminDetails = data;
-    #})
+    })
   }
 
   onLogin() {
